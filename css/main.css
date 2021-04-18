@@ -6,7 +6,9 @@ body {
 }
 
 .hero-bg {
-  background: #fc534a url('../images/tamanna-rumee-65_1-V38v6g-unsplash.jpg');
+  background: #fc534a
+    url('../images/medium_tamanna-rumee-65_1-V38v6g-unsplash\ \(2\).jpg');
+  background-size: cover;
   color: white;
   text-align: center;
   padding-bottom: 4em;
@@ -18,7 +20,6 @@ header {
 
 .hero-bg a {
   color: white;
-  text-decoration: none;
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -44,7 +45,7 @@ h1 span::before {
   content: ' ';
   position: absolute;
   width: 3em;
-  background: #f50f03;
+  background: #53880a;
   height: 0.4em;
   bottom: 0;
   z-index: -1;
@@ -102,4 +103,37 @@ input[type='button'] {
 
 input[type='button']:hover {
   background-color: #355a02;
+}
+
+.authentic {
+  margin: 0;
+}
+
+.right-col {
+  text-align: center;
+  margin: 3em 1em;
+}
+
+h2 {
+  text-transform: uppercase;
+  position: relative;
+}
+
+h2::before {
+  content: ' ';
+  position: absolute;
+  width: 7em;
+  background: #53880a;
+  height: 0.4em;
+  bottom: 0;
+  z-index: -1;
+  margin-left: -0.3em;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  line-height: 2em;
 }
